@@ -1,4 +1,15 @@
 #!/usr/bin/env bash
 
-npm run build
+# create demo app
+npx create-react-app myApp
+npm install -g create-react-app
+create-react-app myApp
+
+# down dependence package
+npm install
+
+# start web
 npm start
+
+# build
+npm run build
