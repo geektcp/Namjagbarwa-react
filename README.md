@@ -4,26 +4,26 @@
 ## 快速开始
 -   若系统未安装node.js，可在[node.js官网](http://nodejs.cn/download/)下载，建议使用linux系统运行项目
 
-克隆项目文件:
+### 克隆项目文件:
 
     git clone https://github.com/sjtucsn/ChineseChess.git
     
-进入目录安装依赖，运行如下代码:
+### 进入目录安装依赖，运行如下代码:
 
     npm i 
     
-安装完成后，进入开发模式：
-
+### 安装完成后，进入开发模式：
+打开 http://localhost:8000 即可看到中国象棋游戏界面
 ```bash
 npm start
-打开 http://localhost:8000 即可看到中国象棋游戏界面
+
 ```
 
-项目构建，用于生产模式：
+### 项目构建，用于生产模式：
 
-```bash
+- 将会生成dist目录,可配合nginx服务器访问游戏相应网址
+```
 npm run build
-将会生成dist目录，可配合nginx服务器访问游戏相应网址
 ```
 
 ## 特性
@@ -43,7 +43,7 @@ npm run build
 
 ## 目录结构
 
-```bash
+```
 ├── /public/            # 项目公共目录
 │ ├── index.html        # 入口html文件
 ├── /src/               # 项目源码目录
