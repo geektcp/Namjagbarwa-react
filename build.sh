@@ -13,3 +13,6 @@ npm start
 
 # build
 npm run build
+
+# package
+npm install webpack webpack-cli --save-dev
